@@ -22,13 +22,13 @@ Ctrl+Shift+B: 프로젝트 빌드
 
 using namespace std;
 int main() {
-   
-    int num = 1;
-    scanf("%d", &num);
-    printf("입력한 숫자는 : %d\n",num);
+   //c= 섭씨 , h= 화씨
 
-    std::cin >> num;
-    printf("입력한 숫자는:%d\n", num);
-
+    double c;
+    cin >> c;
+    int h;
+    h = 1.8 *c + 32;
+    printf("화씨온도는=%d", h);
     return 0;
 }
+        
